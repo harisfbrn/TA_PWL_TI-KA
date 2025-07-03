@@ -1,0 +1,64 @@
+.chat-list {
+  height: 100%;
+  width: 20%%;
+  background-color: #F8F6F7;
+}
+
+.chat-user {
+  display: flex;
+  padding: 50px;
+  cursor: pointer;
+  position: relative;
+}
+
+.chat-user.active {
+  background-color: white;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-details {
+  margin-left: 1rem;
+  flex: 1;
+}
+
+.user-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-name {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.user-time {
+  font-size: 0.875rem;
+  color: gray;
+}
+
+.user-snippet {
+  font-size: 0.875rem;
+  color: #6b7280;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.active-bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #2563eb;
+  border-radius: 0 4px 4px 0;
+}
